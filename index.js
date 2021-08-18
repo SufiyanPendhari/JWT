@@ -63,21 +63,3 @@ function verifyToken(req, res, next) {
 app.listen(5000, () => console.log('Server started on port 5000'));
 
 
-// let value =[0,1]
-// let start = value-1
-// let end = value-2
-// value.push((value[start]+value[end]))
-
-
-function FirstReverse(str) { 
-//   var strs='';
-//   for (let i = str.length-1; i >=0; i--) {
-//      strs+=str[i]
-//   }
-//   console.log(strs)
-let value = Array.from(str).reverse().join('')
-console.log(value);
-}
-
-// // keep this function call here 
-FirstReverse("arimhsak")
